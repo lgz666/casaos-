@@ -632,7 +632,7 @@ DownloadAndInstallCasaOS() {
     fi
     
     # Modify app store configuration
-    sed -i "s#https://github.com/IceWhaleTech/_appstore/#${CASA_DOWNLOAD_DOMAIN}IceWhaleTech/_appstore/#g" "$PREFIX/etc/casaos/app-management.conf"
+    sed -i "s#http://gh.halonice.com/https://github.com/IceWhaleTech/_appstore/#${CASA_DOWNLOAD_DOMAIN}IceWhaleTech/_appstore/#g" "$PREFIX/etc/casaos/app-management.conf"
 
     #Download Uninstall Script
     if [[ -f $PREFIX/tmp/casaos-uninstall ]]; then
