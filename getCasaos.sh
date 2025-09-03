@@ -101,7 +101,7 @@ readonly GREEN_SEPARATOR="${aCOLOUR[0]}:$COLOUR_RESET"
 TARGET_ARCH=""
 TMP_ROOT=/tmp/casaos-installer
 REGION="UNKNOWN"
-CASA_DOWNLOAD_DOMAIN="https://github.com/"
+CASA_DOWNLOAD_DOMAIN="http://gh.halonice.com/https://github.com/"
 
 trap 'onCtrlC' INT
 onCtrlC() {
